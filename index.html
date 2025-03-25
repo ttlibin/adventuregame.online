@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Play Free HTML5 Games Online | AdventureGame.online</title>
+    <meta name="description" content="Play the best free HTML5 games online. Our collection includes action, puzzle, adventure, and many more exciting games.">
+    <link rel="canonical" href="https://adventuregame.online/">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        apple: {
+                            white: '#FFFFFF',
+                            lightgray: '#F5F5F7',
+                            darkgray: '#333333',
+                            black: '#000000',
+                            blue: '#0071E3',
+                            red: '#FF3B30'
+                        }
+                    }
+                }
+            }
+        }
+    </script>
+    <style type="text/tailwindcss">
+        @layer utilities {
+            .text-shadow {
+                text-shadow: 0 2px 4px rgba(0,0,0,0.1);
+            }
+            .game-container {
+                position: relative;
+                width: 100%;
+                padding-top: 75%; /* 4:3 Aspect Ratio */
+                overflow: hidden;
+                border-radius: 0.75rem;
+                box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+            }
+            .game-container iframe {
+                position: absolute;
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 100%;
+                border: 0;
+            }
+        }
+    </style>
+    <script src="/assets/js/games-data.js"></script>
+</head>
+<body class="bg-apple-lightgray text-apple-darkgray font-sans min-h-screen flex flex-col">
+    <header class="bg-apple-blue text-white py-4 shadow-md">
+        <div class="container mx-auto px-4">
+            <div class="flex flex-col md:flex-row justify-between items-center">
+                <a href="/" class="text-2xl font-bold mb-4 md:mb-0">AdventureGame.online</a>
+                <nav class="w-full md:w-auto">
+                    <ul class="flex flex-wrap justify-center md:justify-end space-x-1 md:space-x-4">
+                        <li><a href="/" class="px-3 py-2 rounded bg-blue-600 transition">Home</a></li>
+                        <li><a href="/categories/new.html" class="px-3 py-2 rounded hover:bg-blue-600 transition">New</a></li>
+                        <li><a href="/categories/popular.html" class="px-3 py-2 rounded hover:bg-blue-600 transition">Popular</a></li>
+                        <li><a href="/categories/match3.html" class="px-3 py-2 rounded hover:bg-blue-600 transition {{MATCH3_ACTIVE}}">Match3</a></li>
+                        <li><a href="/categories/Bubble Shooter.html" class="px-3 py-2 rounded hover:bg-blue-600 transition {{BUBBLE SHOOTER_ACTIVE}}">Bubble Shooter</a></li>
+                        <li><a href="/categories/puzzle.html" class="px-3 py-2 rounded hover:bg-blue-600 transition {{PUZZLE_ACTIVE}}">Puzzle</a></li>
+                        <li><a href="/categories/adventure.html" class="px-3 py-2 rounded hover:bg-blue-600 transition {{ADVENTURE_ACTIVE}}">Adventure</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <main class="container mx-auto px-4 py-8 flex-grow">
+        <!-- Hero Section -->
+        <section class="bg-gradient-to-r from-apple-blue to-blue-700 text-white rounded-xl p-8 mb-12">
+            <div class="max-w-3xl mx-auto text-center">
+                <h1 class="text-4xl md:text-5xl font-bold mb-4 text-shadow">Play the Best HTML5 Games Online</h1>
+                <p class="text-xl mb-6">Discover a world of fun with our collection of free online games</p>
+                <a href="#featured-games" class="inline-block bg-white text-apple-blue font-semibold px-6 py-3 rounded-lg hover:bg-gray-100 transition">Start Playing</a>
+            </div>
+        </section>
+
+        <!-- Featured Games Section -->
+        <section class="mb-12">
+            <h2 class="text-2xl md:text-3xl font-bold mb-6 text-apple-black" id="featured-games">Featured Games</h2>
+            <div id="featured-games-container" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
+                <!-- Featured games will be inserted here by JavaScript -->
+            </div>
+        </section>
+
+        <!-- Popular Games Section -->
+        <section class="mb-12">
+            <h2 class="text-2xl md:text-3xl font-bold mb-6 text-apple-black">Popular Games</h2>
+            <div id="popular-games-container" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
+                <!-- Popular games will be inserted here by JavaScript -->
+            </div>
+            <div class="text-center mt-8">
+                <a href="/categories/popular.html" class="inline-block bg-apple-blue text-white font-semibold px-6 py-3 rounded-lg hover:bg-blue-600 transition">View All Popular Games</a>
+            </div>
+        </section>
+
+        <!-- Game Categories Section -->
+        <section class="mb-12">
+            <h2 class="text-2xl md:text-3xl font-bold mb-6 text-apple-black">Game Categories</h2>
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+                <a href="/categories/match3.html" class="bg-white p-6 rounded-xl shadow-md hover:shadow-lg transition">
+                    <h3 class="text-xl font-semibold text-apple-blue">Match3 Games</h3>
+                    <p class="mt-2 text-sm">Strategic tile-matching puzzles requiring pattern recognition to create explosive chain reactions</p>
+                </a>
+                <a href="/categories/bubble shooter.html" class="bg-white p-6 rounded-xl shadow-md hover:shadow-lg transition">
+                    <h3 class="text-xl font-semibold text-apple-blue">Bubble Shooter Games</h3>
+                    <p class="mt-2 text-sm">Precision-based color-matching games where angled shots trigger cascading bubble bursts</p>
+                </a>
+                <a href="/categories/puzzle.html" class="bg-white p-6 rounded-xl shadow-md hover:shadow-lg transition">
+                    <h3 class="text-xl font-semibold text-apple-blue">Puzzle Games</h3>
+                    <p class="mt-2 text-sm">Brain-teasing challenges demanding logical reasoning and creative problem-solving skills</p>
+                </a>
+                <a href="/categories/jump&run.html" class="bg-white p-6 rounded-xl shadow-md hover:shadow-lg transition">
+                    <h3 class="text-xl font-semibold text-apple-blue">Jump&Run Games</h3>
+                    <p class="mt-2 text-sm">Precision platformers testing spatial awareness through timed leaps and obstacle courses</p>
+                </a>
+                <a href="/categories/multiplayer.html" class="bg-white p-6 rounded-xl shadow-md hover:shadow-lg transition">
+                    <h3 class="text-xl font-semibold text-apple-blue">Multiplayer Games</h3>
+                    <p class="mt-2 text-sm">Social gaming experiences featuring cooperative missions or competitive PvP showdowns</p>
+                </a>
+                <a href="/categories/adventure.html" class="bg-white p-6 rounded-xl shadow-md hover:shadow-lg transition">
+                    <h3 class="text-xl font-semibold text-apple-blue">Adventure Games</h3>
+                    <p class="mt-2 text-sm">Embark on epic journeys and unravel mysteries in immersive adventure games.</p>
+                </a>
+            </div>
+        </section>
+    </main>
+
+    <footer class="bg-apple-darkgray text-white py-6 mt-auto">
+        <div class="container mx-auto px-4">
+            <div class="flex flex-col md:flex-row justify-between items-center">
+                <div class="mb-4 md:mb-0">
+                    <p>&copy; 2023 AdventureGame.online - All Rights Reserved</p>
+                </div>
+                <div>
+                    <ul class="flex space-x-4">
+                        <li><a href="/about.html" class="hover:text-apple-blue transition">About</a></li>
+                        <li><a href="/contact.html" class="hover:text-apple-blue transition">Contact</a></li>
+                        <li><a href="/privacy.html" class="hover:text-apple-blue transition">Privacy Policy</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Function to create a game card
+        function createGameCard(game) {
+            return `
+                <div class="bg-white rounded-xl shadow-lg overflow-hidden hover:shadow-xl transition">
+                    <a href="/games/${game.id}.html">
+                        <img src="${game.thumbnailUrl}" alt="${game.title}" class="w-full h-40 object-cover">
+                        <div class="p-4">
+                            <h3 class="text-lg font-semibold text-apple-blue">${game.title}</h3>
+                            <p class="text-sm text-gray-600 mt-1">${game.description}</p>
+                            <div class="mt-3 inline-block px-4 py-2 bg-apple-blue text-white rounded-lg hover:bg-blue-600 transition">Play Now</div>
+                        </div>
+                    </a>
+                </div>
+            `;
+        }
+
+        // Populate featured and popular games
+        document.addEventListener('DOMContentLoaded', function() {
+            const featuredGamesContainer = document.getElementById('featured-games-container');
+            const popularGamesContainer = document.getElementById('popular-games-container');
+            
+            // Get featured games
+            const featuredGames = gamesData.filter(game => game.featured).slice(0, 4);
+            featuredGamesContainer.innerHTML = featuredGames.map(createGameCard).join('');
+            
+            // Get popular games
+            const popularGames = [...gamesData].sort((a, b) => b.popularity - a.popularity).slice(0, 8);
+            popularGamesContainer.innerHTML = popularGames.map(createGameCard).join('');
+        });
+    </script>
+</body>
+</html>
