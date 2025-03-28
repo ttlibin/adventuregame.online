@@ -392,7 +392,7 @@ const gamesData = [
   title: "Switchblade",
   description: "A fast-paced action game with intense combat.",
   longDescription: "Switchblade is an action-packed adventure that challenges players with intense combat and strategic gameplay. Navigate through dangerous environments, defeat enemies, and master the art of the switchblade to survive.",
-  category: "action",
+  category: "adventure",
   tags: ["combat", "strategy", "adventure"],
   iframeUrl: "https://html-classic.itch.zone/html/12670957/index.html",
   thumbnailUrl: "/assets/images/thumbnails/switchblade.jpg",
