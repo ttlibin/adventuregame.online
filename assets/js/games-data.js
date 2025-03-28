@@ -396,7 +396,7 @@ const gamesData = [
   tags: ["combat", "strategy", "adventure"],
   iframeUrl: "https://html-classic.itch.zone/html/12670957/index.html",
   thumbnailUrl: "/assets/images/thumbnails/switchblade.jpg",
-  bannerUrl: "/assets/images/banners/switchblade.jpg",
+  bannerUrl: "/assets/images/banners/switchblade.webp",
   popularity: 92,
   featured: true
 },// 你可以继续添加更多游戏
