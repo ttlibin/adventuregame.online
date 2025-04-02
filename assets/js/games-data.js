@@ -53,7 +53,7 @@ const gamesData = [
   longDescription: "Garden Bloom combines botany simulation with creative design. Cross-pollinate exotic flora species, attract mythical creatures, and decorate seasonal gardens. Features real-time plant growth cycles and weather system affecting your botanical creations.",
   category: "match3",
   tags: ["gardening", "design", "relaxing"],
-  iframeUrl: "https://play.famobi.com/garden-bloom",
+  iframeUrl: "https://gardenbloom.h5games.usercontent.goog/v/03uqf2ceev9h8/?origin=https%3A%2F%2Fgamesnacks.com&amp;gameCenterId=gamesnacks&amp",
   thumbnailUrl: "/assets/images/thumbnails/garden-bloom.jpg",
   bannerUrl: "/assets/images/banners/garden-bloom.webp",
   popularity: 68,
