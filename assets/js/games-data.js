@@ -399,5 +399,19 @@ const gamesData = [
   bannerUrl: "/assets/images/banners/switchblade.webp",
   popularity: 92,
   featured: true
-},// 你可以继续添加更多游戏
+},
+// 游戏6.3
+{
+  id: "dragons-merge",
+  title: "Dragons Merge",
+  description: "Fuse dragons and warriors to build an unstoppable army in this action-strategy adventure.",
+  longDescription: "Master the art of dragon fusion in this strategic battle game. Combine identical units to unlock powerful transformations, then lead your enhanced army in real-time tactical battles filled with fiery clashes. Every merge brings you closer to becoming the ultimate Dragon Master.",
+  category: "adventure",
+  tags: ["fusion", "tactics", "dragons"],
+  iframeUrl: "https://games.crazygames.com/en_US/dragons-merge-battle-games/index.html?v=1.332",
+  thumbnailUrl: "/assets/images/thumbnails/dragons-merge.jpg",
+  bannerUrl: "/assets/images/banners/dragons-merge.webp",
+  popularity: 88,
+  featured: true
+},  // 你可以继续添加更多游戏
 ];
