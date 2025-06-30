@@ -521,8 +521,8 @@ const gamesData = [
   category: "adventure",
   tags: ["idle", "rpg", "auto-battle"],
   iframeUrl: "https://www.crazygames.com/embed/afk-dungeon-zaq",
-  thumbnailUrl: "/assets/images/thumbnails/afk-dungeon-idle-action-rpg.jpg",
-  bannerUrl: "/assets/images/banners/afk-dungeon-idle-action-rpg.webp",
+  thumbnailUrl: "/assets/images/thumbnails/afk-dungeon-zaq.jpg",
+  bannerUrl: "/assets/images/banners/afk-dungeon-zaq.webp",
   popularity: 84,
   featured: false
 },
