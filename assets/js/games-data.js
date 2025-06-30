@@ -413,5 +413,441 @@ const gamesData = [
   bannerUrl: "/assets/images/banners/dragons-merge.webp",
   popularity: 88,
   featured: true
-},  // 你可以继续添加更多游戏
+}, 
+  // Adventure Games - New Additions
+{
+  id: "castle-craft",
+  title: "Castle Craft",
+  description: "Build and defend your medieval castle in this strategic adventure.",
+  longDescription: "Castle Craft combines medieval building simulation with tower defense mechanics. Construct magnificent fortresses, recruit loyal knights, and defend against enemy sieges. Features dynamic weather systems, resource management, and epic castle battles.",
+  category: "adventure",
+  tags: ["building", "strategy", "medieval"],
+  iframeUrl: "https://www.crazygames.com/embed/castle-craft",
+  thumbnailUrl: "/assets/images/thumbnails/castle-craft.avif",
+  bannerUrl: "/assets/images/banners/castle-craft.avif",
+  popularity: 85,
+  featured: true
+},
+
+{
+  id: "diver-hero",
+  title: "Diver Hero",
+  description: "Explore the depths of the ocean in this underwater adventure.",
+  longDescription: "Diver Hero takes you on an underwater journey through mysterious ocean depths. Discover ancient treasures, encounter exotic sea creatures, and solve underwater puzzles. Features realistic diving physics and breathtaking marine environments.",
+  category: "adventure",
+  tags: ["underwater", "exploration", "treasure"],
+  iframeUrl: "https://www.crazygames.com/embed/diver-hero",
+  thumbnailUrl: "/assets/images/thumbnails/diver-hero.avif",
+  bannerUrl: "/assets/images/banners/diver-hero.avif",
+  popularity: 78,
+  featured: false
+},
+
+{
+  id: "live",
+  title: "LIVE",
+  description: "Survive in a dynamic world where every choice matters.",
+  longDescription: "LIVE is an intense survival adventure where players must adapt to ever-changing environments. Make critical decisions, manage resources, and build shelter while facing natural disasters and hostile wildlife. Features permadeath mechanics and procedurally generated worlds.",
+  category: "adventure",
+  tags: ["survival", "decision-making", "dynamic"],
+  iframeUrl: "https://www.crazygames.com/embed/live-rby",
+  thumbnailUrl: "/assets/images/thumbnails/live.avif",
+  bannerUrl: "/assets/images/banners/live.avif",
+  popularity: 82,
+  featured: true
+},
+
+{
+  id: "dead-land-survival",
+  title: "Dead Land: Survival",
+  description: "Fight for survival in a post-apocalyptic wasteland.",
+  longDescription: "Dead Land: Survival challenges players to rebuild civilization after a global catastrophe. Scavenge for supplies, craft weapons, and establish safe zones while battling mutant creatures and hostile survivors. Features base building and multiplayer raids.",
+  category: "adventure",
+  tags: ["post-apocalyptic", "survival", "crafting"],
+  iframeUrl: "https://www.crazygames.com/embed/dead-land-survival",
+  thumbnailUrl: "/assets/images/thumbnails/dead-land-survival.avif",
+  bannerUrl: "/assets/images/banners/dead-land-survival.avif",
+  popularity: 89,
+  featured: true
+},
+
+{
+  id: "hedgies",
+  title: "Hedgies",
+  description: "Join adorable hedgehogs on their magical garden adventure.",
+  longDescription: "Hedgies follows cute hedgehogs as they navigate enchanted gardens filled with puzzles and magic. Collect berries, unlock special abilities, and help forest friends solve environmental challenges. Perfect for players seeking a relaxing, family-friendly adventure.",
+  category: "adventure",
+  tags: ["cute", "family-friendly", "puzzle"],
+  iframeUrl: "https://www.crazygames.com/embed/hedgies",
+  thumbnailUrl: "/assets/images/thumbnails/hedgies.avif",
+  bannerUrl: "/assets/images/banners/hedgies.avif",
+  popularity: 73,
+  featured: false
+},
+
+{
+  id: "prison-escape",
+  title: "Prison Escape",
+  description: "Plan and execute the ultimate prison break.",
+  longDescription: "Prison Escape challenges players to orchestrate elaborate escape plans from maximum security facilities. Study guard patterns, craft tools, and coordinate with fellow inmates. Features stealth mechanics, multiple escape routes, and consequence-driven gameplay.",
+  category: "adventure",
+  tags: ["stealth", "strategy", "thriller"],
+  iframeUrl: "https://www.crazygames.com/embed/prison-escape-lnj",
+  thumbnailUrl: "/assets/images/thumbnails/prison-escape.avif",
+  bannerUrl: "/assets/images/banners/prison-escape.avif",
+  popularity: 87,
+  featured: true
+},
+
+{
+  id: "hex-empire",
+  title: "Hex Empire",
+  description: "Conquer territories in this strategic hex-based warfare game.",
+  longDescription: "Hex Empire combines turn-based strategy with territorial conquest on hexagonal battlefields. Command armies, capture strategic positions, and expand your empire across diverse terrains. Features AI opponents, multiplayer battles, and deep strategic gameplay.",
+  category: "adventure",
+  tags: ["strategy", "turn-based", "warfare"],
+  iframeUrl: "https://www.crazygames.com/embed/hex-empire",
+  thumbnailUrl: "/assets/images/thumbnails/hexempireb.avif",
+  bannerUrl: "/assets/images/banners/hexempireb.avif",
+  popularity: 91,
+  featured: true
+},
+
+{
+  id: "afk-dungeon-idle-action-rpg",
+  title: "AFK Dungeon: Idle Action RPG",
+  description: "Progress through dungeons even when you're away.",
+  longDescription: "AFK Dungeon revolutionizes RPG gameplay with idle mechanics that let heroes adventure automatically. Collect loot, level up, and unlock new abilities while offline. Features auto-battle systems, gear optimization, and endless dungeon progression.",
+  category: "adventure",
+  tags: ["idle", "rpg", "auto-battle"],
+  iframeUrl: "https://www.crazygames.com/embed/afk-dungeon-zaq",
+  thumbnailUrl: "/assets/images/thumbnails/afk-dungeon-zaq.webp",
+  bannerUrl: "/assets/images/banners/afk-dungeon-zaq.webp",
+  popularity: 84,
+  featured: false
+},
+
+{
+  id: "metro-escape",
+  title: "Metro Escape",
+  description: "Navigate through underground subway systems to find freedom.",
+  longDescription: "Metro Escape takes place in abandoned subway tunnels where players must solve puzzles and avoid dangers to reach the surface. Features atmospheric environments, hidden passages, and time-pressure elements that create intense escape scenarios.",
+  category: "adventure",
+  tags: ["escape", "underground", "puzzle"],
+  iframeUrl: "https://www.crazygames.com/embed/metro-escape",
+  thumbnailUrl: "/assets/images/thumbnails/metro-escape.avif",
+  bannerUrl: "/assets/images/banners/metro-escape.avif",
+  popularity: 79,
+  featured: false
+},
+
+{
+  id: "idle-saga",
+  title: "Idle Saga",
+  description: "Epic fantasy adventure that plays itself.",
+  longDescription: "Idle Saga combines classic RPG storytelling with modern idle mechanics. Watch heroes automatically battle through fantasy realms, collecting treasures and gaining experience. Features prestige systems, legendary equipment, and an epic storyline that unfolds over time.",
+  category: "adventure",
+  tags: ["idle", "fantasy", "rpg"],
+  iframeUrl: "https://www.crazygames.com/embed/idle-saga",
+  thumbnailUrl: "/assets/images/thumbnails/idle-saga.avif",
+  bannerUrl: "/assets/images/banners/idle-saga.avif",
+  popularity: 88,
+  featured: true
+},
+
+{
+  id: "noob-digger-pro-drill-miner",
+  title: "Noob Digger: Pro Drill Miner",
+  description: "Master the art of mining with powerful drilling equipment.",
+  longDescription: "Noob Digger: Pro Drill Miner challenges players to become mining experts using advanced drilling technology. Excavate rare materials, upgrade equipment, and discover underground secrets. Features realistic mining physics and economic simulation elements.",
+  category: "adventure",
+  tags: ["mining", "simulation", "upgrades"],
+  iframeUrl: "https://www.crazygames.com/embed/noob-digger-pro-drill-miner-cal",
+  thumbnailUrl: "/assets/images/thumbnails/noob-digger-pro-drill-miner.avif",
+  bannerUrl: "/assets/images/banners/noob-digger-pro-drill-miner.avif",
+  popularity: 76,
+  featured: false
+},
+
+{
+  id: "miniblox",
+  title: "Miniblox",
+  description: "Build and explore in this block-based creative adventure.",
+  longDescription: "Miniblox offers unlimited creativity in a voxel-based world where players can build anything imaginable. Craft tools, construct buildings, and explore procedurally generated landscapes. Features multiplayer building, resource gathering, and creative freedom.",
+  category: "adventure",
+  tags: ["building", "creative", "voxel"],
+  iframeUrl: "https://www.crazygames.com/embed/miniblox",
+  thumbnailUrl: "/assets/images/thumbnails/miniblox.avif",
+  bannerUrl: "/assets/images/banners/miniblox.avif",
+  popularity: 83,
+  featured: false
+},
+
+{
+  id: "fireboy-and-watergirl",
+  title: "FIREBOY AND WATERGIRL",
+  description: "Cooperative puzzle adventure with elemental powers.",
+  longDescription: "FIREBOY AND WATERGIRL is a classic cooperative puzzle series where players control two characters with opposite elemental abilities. Navigate through temples, solve environmental puzzles, and collect gems while avoiding deadly traps. Perfect for two-player cooperation.",
+  category: "adventure",
+  tags: ["cooperative", "puzzle", "elemental"],
+  iframeUrl: "https://www.miniplay.com/embed/fireboy-and-watergirl-the-forest-temple",
+  thumbnailUrl: "/assets/images/thumbnails/fireboy-watergirl.jpg",
+  bannerUrl: "/assets/images/banners/fireboy-watergirl.jpg",
+  popularity: 95,
+  featured: true
+},
+
+{
+  id: "super-mario-bros",
+  title: "SUPER MARIO BROS",
+  description: "The classic platformer adventure that started it all.",
+  longDescription: "SUPER MARIO BROS brings the iconic plumber's adventure to your browser. Jump through classic levels, collect power-ups, and rescue Princess Peach from Bowser's castle. Features authentic retro gameplay, memorable music, and timeless platform mechanics.",
+  category: "adventure",
+  tags: ["classic", "platformer", "retro"],
+  iframeUrl: "https://www.miniplay.com/embed/super-mario-bros",
+  thumbnailUrl: "/assets/images/thumbnails/super-mario-bros.webp",
+  bannerUrl: "/assets/images/banners/super-mario-bros.webp",
+  popularity: 98,
+  featured: true
+},
+
+{
+  id: "pokemon-quetzal",
+  title: "POKEMON QUETZAL",
+  description: "Embark on a Pokemon adventure in the Quetzal region.",
+  longDescription: "POKEMON QUETZAL introduces trainers to a new region filled with unique Pokemon species and challenging gym battles. Catch, train, and battle Pokemon while exploring diverse environments. Features original storylines, new Pokemon variants, and classic turn-based combat.",
+  category: "adventure",
+  tags: ["pokemon", "rpg", "turn-based"],
+  iframeUrl: "https://www.miniplay.com/embed/pokemon-quetzal",
+  thumbnailUrl: "/assets/images/thumbnails/pokemon-quetzal.jpg",
+  bannerUrl: "/assets/images/banners/pokemon-quetzal.jpg",
+  popularity: 92,
+  featured: true
+},
+
+// Puzzle Games - New Additions
+{
+  id: "tower-swap",
+  title: "Tower Swap",
+  description: "Strategic tower swapping puzzle with physics challenges.",
+  longDescription: "Tower Swap challenges players to rearrange tower blocks using strategic swapping mechanics. Plan moves carefully to create stable structures while solving increasingly complex physics-based puzzles. Features momentum conservation and architectural thinking.",
+  category: "puzzle",
+  tags: ["physics", "strategy", "architecture"],
+  iframeUrl: "https://www.crazygames.com/embed/tower-swap",
+  thumbnailUrl: "/assets/images/thumbnails/tower-swap.avif",
+  bannerUrl: "/assets/images/banners/tower-swap.avif",
+  popularity: 77,
+  featured: false
+},
+
+{
+  id: "piece-of-cake-merge-and-bake",
+  title: "Piece of Cake: Merge and Bake",
+  description: "Merge ingredients to create delicious bakery treats.",
+  longDescription: "Piece of Cake: Merge and Bake combines merge mechanics with culinary creativity. Combine ingredients to unlock new recipes, manage a bustling bakery, and satisfy customer orders. Features realistic baking processes and decorative customization options.",
+  category: "puzzle",
+  tags: ["merge", "cooking", "management"],
+  iframeUrl: "https://www.crazygames.com/embed/piece-of-cake-merge-and-bake",
+  thumbnailUrl: "/assets/images/thumbnails/piece-of-cake-merge-and-bake.avif",
+  bannerUrl: "/assets/images/banners/piece-of-cake-merge-and-bake.avif",
+  popularity: 81,
+  featured: true
+},
+
+{
+  id: "piles-of-mahjong",
+  title: "Piles of Mahjong",
+  description: "Classic mahjong solitaire with multiple pile variations.",
+  longDescription: "Piles of Mahjong reinvents traditional mahjong solitaire with innovative stacking mechanics. Clear tiles by matching pairs while managing multiple piles simultaneously. Features beautiful tile designs, strategic depth, and relaxing gameplay progression.",
+  category: "puzzle",
+  tags: ["mahjong", "solitaire", "strategy"],
+  iframeUrl: "https://www.crazygames.com/embed/piles-of-mahjong-jhb",
+  thumbnailUrl: "/assets/images/thumbnails/piles-of-mahjong.avif",
+  bannerUrl: "/assets/images/banners/piles-of-mahjong.avif",
+  popularity: 74,
+  featured: false
+},
+
+{
+  id: "tropical-merge",
+  title: "Tropical Merge",
+  description: "Merge tropical items to build your paradise island.",
+  longDescription: "Tropical Merge transports players to exotic islands where merging creates paradise. Combine tropical fruits, build beach resorts, and discover hidden treasures. Features island customization, weather effects, and progressive unlock systems.",
+  category: "puzzle",
+  tags: ["merge", "tropical", "building"],
+  iframeUrl: "https://www.crazygames.com/embed/tropical-merge",
+  thumbnailUrl: "/assets/images/thumbnails/tropical-merge.avif",
+  bannerUrl: "/assets/images/banners/tropical-merge.avif",
+  popularity: 79,
+  featured: false
+},
+
+{
+  id: "fairyland-merge-and-magic",
+  title: "Fairyland Merge & Magic",
+  description: "Magical merge adventure in an enchanted fairy realm.",
+  longDescription: "Fairyland Merge & Magic combines merge gameplay with fantasy storytelling. Help magical creatures by merging enchanted objects, casting spells, and restoring fairy kingdoms. Features magical transformations, creature collection, and spellcrafting mechanics.",
+  category: "puzzle",
+  tags: ["merge", "fantasy", "magic"],
+  iframeUrl: "https://www.crazygames.com/embed/fairyland-merge-and-magic",
+  thumbnailUrl: "/assets/images/thumbnails/fairyland-merge-and-magic.avif",
+  bannerUrl: "/assets/images/banners/fairyland-merge-and-magic.avif",
+  popularity: 85,
+  featured: true
+},
+
+{
+  id: "war-mahjong",
+  title: "War Mahjong",
+  description: "Strategic mahjong with military campaign themes.",
+  longDescription: "War Mahjong adds tactical warfare elements to classic mahjong gameplay. Clear tile formations representing battle scenarios while managing limited moves and time pressure. Features military-themed tiles, campaign progression, and strategic challenge modes.",
+  category: "puzzle",
+  tags: ["mahjong", "strategy", "military"],
+  iframeUrl: "https://www.crazygames.com/embed/war-mahjong",
+  thumbnailUrl: "/assets/images/thumbnails/war-mahjong.avif",
+  bannerUrl: "/assets/images/banners/war-mahjong.avif",
+  popularity: 72,
+  featured: false
+},
+
+{
+  id: "merge-world",
+  title: "Merge World",
+  description: "Build entire civilizations through strategic merging.",
+  longDescription: "Merge World lets players create entire worlds by merging basic elements into complex civilizations. Start with simple materials and gradually unlock advanced technologies, buildings, and life forms. Features evolutionary progression and world-building creativity.",
+  category: "puzzle",
+  tags: ["merge", "civilization", "evolution"],
+  iframeUrl: "https://www.crazygames.com/embed/merge-world",
+  thumbnailUrl: "/assets/images/thumbnails/merge-world.avif",
+  bannerUrl: "/assets/images/banners/merge-world.avif",
+  popularity: 86,
+  featured: true
+},
+
+// Match3 Games - New Additions
+{
+  id: "mergest-kingdom",
+  title: "Mergest Kingdom",
+  description: "Build your kingdom through strategic match-3 merging.",
+  longDescription: "Mergest Kingdom combines match-3 mechanics with kingdom building strategy. Merge resources to construct buildings, recruit citizens, and expand your realm. Features city planning, resource management, and progressive kingdom development through puzzle-solving.",
+  category: "match3",
+  tags: ["kingdom", "building", "strategy"],
+  iframeUrl: "https://www.crazygames.com/embed/mergest-kingdom",
+  thumbnailUrl: "/assets/images/thumbnails/mergest-kingdom.avif",
+  bannerUrl: "/assets/images/banners/mergest-kingdom.avif",
+  popularity: 88,
+  featured: true
+},
+
+{
+  id: "forgotten-treasure-2",
+  title: "Forgotten Treasure 2",
+  description: "Uncover ancient treasures through match-3 adventures.",
+  longDescription: "Forgotten Treasure 2 continues the archaeological adventure with enhanced match-3 gameplay. Explore ancient ruins, solve historical puzzles, and uncover legendary artifacts. Features story-driven progression, artifact collection, and mysterious ancient civilizations.",
+  category: "match3",
+  tags: ["treasure", "archaeology", "adventure"],
+  iframeUrl: "https://www.crazygames.com/embed/forgotten-treasure-2---match-3",
+  thumbnailUrl: "/assets/images/thumbnails/forgotten-treasure-2.avif",
+  bannerUrl: "/assets/images/banners/forgotten-treasure-2.avif",
+  popularity: 83,
+  featured: false
+},
+
+{
+  id: "skydom",
+  title: "Skydom",
+  description: "Soar through celestial realms in this heavenly match-3.",
+  longDescription: "Skydom takes match-3 gameplay to the heavens with celestial themes and floating island adventures. Match star patterns, collect cosmic energy, and rebuild sky kingdoms. Features gravity-defying mechanics and astronomical puzzle elements.",
+  category: "match3",
+  tags: ["celestial", "sky", "cosmic"],
+  iframeUrl: "https://www.crazygames.com/embed/skydom",
+  thumbnailUrl: "/assets/images/thumbnails/skydom.avif",
+  bannerUrl: "/assets/images/banners/skydom.avif",
+  popularity: 81,
+  featured: false
+},
+
+{
+  id: "bubble-blast",
+  title: "Bubble Blast",
+  description: "Explosive bubble-popping match-3 excitement.",
+  longDescription: "Bubble Blast adds explosive chain reactions to classic bubble-shooting gameplay. Create massive bubble combinations, trigger spectacular blast effects, and clear challenging bubble formations. Features power-up bubbles and physics-based bubble interactions.",
+  category: "match3",
+  tags: ["bubble-shooter", "explosions", "chain-reaction"],
+  iframeUrl: "https://www.crazygames.com/embed/bubble-blast-pwd",
+  thumbnailUrl: "/assets/images/thumbnails/bubble-blast.avif",
+  bannerUrl: "/assets/images/banners/bubble-blast.avif",
+  popularity: 84,
+  featured: true
+},
+
+{
+  id: "matchventures",
+  title: "MatchVentures",
+  description: "Adventure-packed match-3 with exploration elements.",
+  longDescription: "MatchVentures combines traditional match-3 puzzles with adventure exploration mechanics. Journey through diverse landscapes, solve environmental puzzles, and discover hidden secrets. Features character progression, equipment upgrades, and story-driven gameplay.",
+  category: "match3",
+  tags: ["adventure", "exploration", "rpg"],
+  iframeUrl: "https://www.crazygames.com/embed/matchventures",
+  thumbnailUrl: "/assets/images/thumbnails/matchventures.avif",
+  bannerUrl: "/assets/images/banners/matchventures.avif",
+  popularity: 87,
+  featured: true
+},
+
+{
+  id: "skydom-reforged",
+  title: "Skydom: Reforged",
+  description: "Enhanced celestial match-3 with improved mechanics.",
+  longDescription: "Skydom: Reforged reimagines the original with enhanced graphics, new power-ups, and refined gameplay mechanics. Experience improved celestial environments, smoother match-3 interactions, and additional sky realm adventures with updated visual effects.",
+  category: "match3",
+  tags: ["celestial", "enhanced", "remastered"],
+  iframeUrl: "https://www.crazygames.com/embed/skydom-reforged",
+  thumbnailUrl: "/assets/images/thumbnails/skydom-reforged.avif",
+  bannerUrl: "/assets/images/banners/skydom-reforged.avif",
+  popularity: 82,
+  featured: false
+},
+
+{
+  id: "match-arena",
+  title: "Match Arena",
+  description: "Competitive match-3 battles against other players.",
+  longDescription: "Match Arena brings competitive multiplayer action to match-3 gaming. Battle opponents in real-time puzzle matches, climb leaderboards, and unlock special abilities. Features tournament modes, ranking systems, and strategic power-up management.",
+  category: "match3",
+  tags: ["multiplayer", "competitive", "arena"],
+  iframeUrl: "https://www.crazygames.com/embed/match-arena",
+  thumbnailUrl: "/assets/images/thumbnails/match-arena.avif",
+  bannerUrl: "/assets/images/banners/match-arena.avif",
+  popularity: 89,
+  featured: true
+},
+
+{
+  id: "candy-riddles",
+  title: "Candy Riddles",
+  description: "Sweet puzzle challenges with candy-themed match-3.",
+  longDescription: "Candy Riddles combines match-3 mechanics with brain-teasing riddle elements. Solve sweet puzzles by matching candy pieces while deciphering clues and unlocking sugar-coated secrets. Features progressive difficulty and confectionery creativity.",
+  category: "match3",
+  tags: ["candy", "riddles", "sweet"],
+  iframeUrl: "https://www.crazygames.com/embed/candy-riddles",
+  thumbnailUrl: "/assets/images/thumbnails/candy-riddles.avif",
+  bannerUrl: "/assets/images/banners/candy-riddles.avif",
+  popularity: 78,
+  featured: false
+},
+
+{
+  id: "match-masters",
+  title: "Match Masters",
+  description: "Master-level match-3 challenges for expert players.",
+  longDescription: "Match Masters delivers advanced match-3 gameplay designed for experienced puzzle solvers. Features complex board layouts, sophisticated matching mechanics, and strategic depth that challenges even veteran players. Includes master-tier achievements and expert tournaments.",
+  category: "match3",
+  tags: ["expert", "challenging", "advanced"],
+  iframeUrl: "https://www.crazygames.com/embed/match-masters-jiy",
+  thumbnailUrl: "/assets/images/thumbnails/match-masters.avif",
+  bannerUrl: "/assets/images/banners/match-masters.avif",
+  popularity: 85,
+  featured: false
+}// 你可以继续添加更多游戏
 ];
