@@ -507,8 +507,8 @@ const gamesData = [
   category: "adventure",
   tags: ["strategy", "turn-based", "warfare"],
   iframeUrl: "https://www.crazygames.com/embed/hex-empire",
-  thumbnailUrl: "/assets/images/thumbnails/hex-empire.jpg",
-  bannerUrl: "/assets/images/banners/hex-empire.webp",
+  thumbnailUrl: "/assets/images/thumbnails/hexempireb.jpg",
+  bannerUrl: "/assets/images/banners/hexempireb.webp",
   popularity: 91,
   featured: true
 },
